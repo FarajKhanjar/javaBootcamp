@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Runner {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner scanner = new Scanner(System.in);
+		
+	Scanner scanner = new Scanner(System.in);
 	/*
 	//question 1: Calculating the circumference of a given radius circle
         System.out.println("please enter a radius:");
