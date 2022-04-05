@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Runner {
 
 	public static void main(String[] args) {
-		
-	Scanner scanner = new Scanner(System.in);
-	/*
-	//question 1: Calculating the circumference of a given radius circle
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		 /*
+		//question 1: Calculating the circumference of a given radius circle
         System.out.println("please enter a radius:");
         float radius = scanner.nextFloat();
         float pi = 3.14f;
@@ -27,7 +27,7 @@ public class Runner {
         int corn = scanner.nextInt();
         
         System.out.println("Bulgarian cheese:");
-        int bulChe = scanner.nextInt();//Bulgarian cheese
+        int bulChe = scanner.nextInt();//olives
         System.out.println("Extra yellow cheese:");
         int yelChe = scanner.nextInt(); //Extra yellow cheese
 
@@ -35,15 +35,15 @@ public class Runner {
         System.out.println("The price of your toast is:"+price+ " NIS");
         
 		
-	/*
-	//question 3: Calculation of the price of the purchase, including transportation and tip
-	System.out.println("Hi, To calculate the total price, enter your purchase amount from the store:");
-	float basPri = scanner.nextFloat();//basic price
-	System.out.println("For transportation, how far is your home from the store?: (in KM)");
+		/*
+		//question 3: Calculation of the price of the purchase, including transportation and tip
+		System.out.println("Hi, To calculate the total price, enter your purchase amount from the store:");
+		float basPri = scanner.nextFloat();//basic price
+		System.out.println("For transportation, how far is your home from the store?: (in KM)");
         float dis = scanner.nextFloat();//distance
         System.out.println("What floor do you live on? :");
         int flo = scanner.nextInt(); //floor
-	System.out.println("What is the weight of the item you purchased?: (in KG)");
+		System.out.println("What is the weight of the item you purchased?: (in KG)");
         float wei = scanner.nextFloat();//weight
         float tip = basPri*0.10f;
         
