@@ -19,7 +19,7 @@ public class Runner_for {
 				}
 			}
 			System.out.println("the number "+num+" is "+isPrime);
-
+			scanner.close();
 	}
  
 }

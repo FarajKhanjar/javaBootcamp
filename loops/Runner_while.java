@@ -12,7 +12,9 @@ public class Runner_while {
 		 the program stops when received as input a negative number that is not included in the answer.
 		 */
 		Scanner scanner = new Scanner(System.in);
-		int num =0,i=1,res = 0;
+		int num =0;
+		int i=1;
+		int res = 0;
 		do
 		{
 		    i*=10;
