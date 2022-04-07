@@ -46,7 +46,7 @@ public class Runner {
 	
 	//////// Q4:
 	
-	public static int[] add(int[] array1, int[] array2) //This method returned sum of two input arrays by a new build array.
+		public static int[] add(int[] array1, int[] array2) //This method returned sum of two input arrays by a new build array.
 	{
 		int lengthArray1=array1.length; //number of element in array1;
 		int lengthArray2=array2.length; //number of element in array2;
@@ -70,9 +70,9 @@ public class Runner {
 			int minSum = lengthArray1;
 			newBuildArray=concatArrays(array2,array1,minSum);
 		}
-		
-	//	newBuildArray[lengthTwoArray]=sumTwoArrays;
-	//	newBuildArray[lengthTwoArray+1]=difTwoArrays;
+
+		newBuildArray[lengthTwoArray]=sumTwoArrays;
+		newBuildArray[lengthTwoArray+1]=difTwoArrays;
 		return newBuildArray; //the final result.
 	}
 	
@@ -80,7 +80,7 @@ public class Runner {
 	{
 			
 	int sum=0; //the sum of the elements in Array.
-	for(int i=0 ; i<array.length-1 ; i++)
+	for(int i=0 ; i<array.length ; i++)
 	{
 		sum+=array[i];
 	}
@@ -93,7 +93,7 @@ public class Runner {
 		int lengthArray2=array2.length; //number of element in array2;
 		int arrayLength=lengthArray1+lengthArray2;
 				
-		int[] newBuildArray=new int[arrayLength];
+		int[] newBuildArray=new int[arrayLength+2];
 		for(int i=0;i<lengthArray2;i++)
         {
 			newBuildArray[i]=array2[i];
@@ -103,6 +103,7 @@ public class Runner {
         	newBuildArray[index]=array1[i];
         	index++;
         }
+		
 		return newBuildArray;
 	}
 
