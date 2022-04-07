@@ -154,12 +154,16 @@ public class Runner {
 		scanner.close();		
 	
 		
-	/*	//Question 4:
+	/*	
+	        //Question 4:
 		Scanner scanner = new Scanner(System.in);
-		int[] array1 = new int[3]; //length for example
-		int[] array2 = new int[4]; //length for example
+	//	int[] array1 = {7, 8, -4}; //length for example
+	//	int[] array2 = {-5, 7, 3, 2}; //length for example
 
-		System.out.println("Enter your first Array:" );
+		int[] array1 = {17, 8, -4, 10, -5}; //length for example
+		int[] array2 = {-14,15, 12,}; //length for example
+		
+	/*	System.out.println("Enter your first Array:" );
 		for(int i=0 ; i<array1.length ; i++)
 		{
 			array1[i] = scanner.nextInt();
@@ -169,7 +173,7 @@ public class Runner {
 		{
 			array2[i] = scanner.nextInt();
 		}
-		
+	*/	
 		int[] finalArray=add(array1,array2);
 		for(int element:finalArray) 
 		{
